@@ -11,7 +11,7 @@ doccpath=$2
 pbxproj_path="$xcoderoot/$frameworkname.xcodeproj/project.pbxproj"
 
 # Set the source and destination directories
-src_dir="$xcframework_path/ios-arm64_armv7/$frameworkname.framework/Headers"
+src_dir="$xcframework_path/macos-arm64_x86_64/$frameworkname.framework/Headers"
 dest_dir="$xcoderoot/$frameworkname"
 
 # Replace all instances of "FRAMEWORK_NAME" with the new value
